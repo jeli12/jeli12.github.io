@@ -1,0 +1,21 @@
+.fancy-button {
+  color: pink;
+  background-color: white;
+
+  font-size: 20px;
+  padding: 13px 20px;
+
+  border: none;
+  border-radius: 30px;
+  margin-left: 0px;
+
+  transition: background-color .15s ease-in-out, margin 1s ease-in-out;
+}
+
+.moved {
+  margin-left: 200px;
+}
+
+.fancy-button:hover{
+  background-color: white;
+}
