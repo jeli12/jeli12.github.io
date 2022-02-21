@@ -5,6 +5,10 @@
   width: 30%;
 }
 
+body{
+  background-color: lavender;
+}
+
 h1 {
   font-family: 'Concert One', cursive;
   color: cornflowerblue;
@@ -26,10 +30,6 @@ hr style {
 h3 {
   font-family: 'Concert One', cursive;
   color: cornflowerblue;
-}
-
-ul{
-  color: red;
 }
 
 a:hover {
