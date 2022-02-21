@@ -7,7 +7,7 @@
 
 h1 {
   font-family: 'Concert One', cursive;
-  color: white;
+  color: cornflowerblue;
   text-align: center;
 }
 
@@ -25,11 +25,11 @@ hr style {
 
 h3 {
   font-family: 'Concert One', cursive;
-  color: white;
+  color: cornflowerblue;
 }
 
 ul{
-  color: white;
+  color: red;
 }
 
 a:hover {
