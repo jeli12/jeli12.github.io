@@ -6,12 +6,14 @@
 }
 
 body{
-  background-color: lavender;
+  background-color: white;
+  font-family: 'Sen', sans-serif;
+  font-size: 12px
 }
 
 h1 {
-  font-family: 'Concert One', cursive;
-  color: cornflowerblue;
+  font-family: 'Sen', sans-serif;
+  color: #ABC07C;
   text-align: center;
 }
 
@@ -23,15 +25,19 @@ ul {
 
 hr style {
   height:2px;
-  border-width:0'
+  border-width:0;
   color:white;
 }
 
 h3 {
-  font-family: 'Concert One', cursive;
-  color: cornflowerblue;
+  font-family: 'Sen', sans-serif;
+  color: #ABC07C;
 }
 
 a:hover {
- color: pink;
+ color: #6f5c44;
+}
+
+p {
+  color: black;
 }
