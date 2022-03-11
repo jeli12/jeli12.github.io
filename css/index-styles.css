@@ -1,43 +1,62 @@
-.center{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%;
-}
-
 body{
-  background-color: white;
-  font-family: 'Sen', sans-serif;
-  font-size: 12px
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://pbs.twimg.com/media/FFRAjQ1XMAUVgPh?format=jpg&name=medium);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 h1 {
   font-family: 'Sen', sans-serif;
-  color: #ABC07C;
+  font-size: 200px;
+  color: white;
   text-align: center;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
-  margin:0;
+a {
+  text-decoration: none;
 }
 
-hr style {
-  height:2px;
-  border-width:0;
-  color:white;
-}
-
-h3 {
-  font-family: 'Sen', sans-serif;
-  color: #ABC07C;
+a:visited {
+  color: white;
 }
 
 a:hover {
- color: #6f5c44;
+ color: pink;
 }
 
-p {
-  color: black;
+/*nav bar*/
+ul {
+  text-align: center;
+  padding: 5px;
+  margin:6px;
+  font-family: 'Sen', sans-serif;
 }
+
+li {
+  display: inline-flex;
+  margin: 0 15px;
+  padding: 10px;
+}
+
+/*mobile browser*/
+
+@media screen and (max-width:400px) {
+  ul {
+    text-align: center;
+    padding: 5px;
+    margin:6px;
+    font-family: 'Sen', sans-serif;
+  }
+
+  li {
+    display: inline-flex;
+    margin: 0 15px;
+    padding: 10px;
+    font-size: 100px;
+  }
+}
+@media screen and (min-width:400px) {

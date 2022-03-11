@@ -1,0 +1,51 @@
+body{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://ih1.redbubble.net/image.890071499.0373/flat,1000x1000,075,f.u4.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+ color: pink;
+}
+
+/*nav bar*/
+ul {
+  text-align: center;
+  text-decoration: none;
+  padding: 5px;
+  margin:6px;
+  font-family: 'Sen', sans-serif;
+}
+
+li {
+  display: inline-flex;
+  margin: 0 15px;
+  padding: 10px
+  text-decoration: none;
+  font-size: 12px;
+}
+
+h1 {
+  font-family: 'Sen', sans-serif;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
+
+p1 {
+  font-family: 'Sen', sans-serif;
+  font-size: 12px;
+}
