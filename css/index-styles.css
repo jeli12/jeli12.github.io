@@ -1,4 +1,6 @@
-body{
+/*HOME PAGE*/
+/*body for home page*/
+.home-body{
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -9,13 +11,7 @@ body{
   background-repeat: no-repeat;
 }
 
-h1 {
-  font-family: 'Sen', sans-serif;
-  font-size: 200px;
-  color: white;
-  text-align: center;
-}
-
+/*link color for home, about, and contact page*/
 a {
   text-decoration: none;
 }
@@ -40,6 +36,123 @@ li {
   display: inline-flex;
   margin: 0 15px;
   padding: 10px;
+  font-size: 15px;
+}
+
+/*h1 for home page*/
+.home-h1 {
+  font-family: 'Sen', sans-serif;
+  font-size: 100px;
+  color: white;
+  text-align: center;
+}
+
+/*ABOUT PAGE*/
+.about-body{
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://ih1.redbubble.net/image.890071499.0373/flat,1000x1000,075,f.u4.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-h1 {
+  font-family: 'Sen', sans-serif;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+.about-h3 {
+  font-family: 'Sen', sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.about-p {
+  font-family: 'Sen', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  color: white;
+}
+
+.about-p1 {
+  font-size: 12px;
+}
+
+/*PROJECT PAGE*/
+/*link color for project page*/
+a. {
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+}
+
+a:hover {
+ color:	#DDA0DD;
+}
+
+.projects-h1 {
+  font-family: 'Sen', sans-serif;
+  font-size: 30px;
+  color: pink;
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  box-sizing: border-box;
+  align-items: center;
+  padding:20px;
+}
+
+.gallery img {
+  width: 400px;
+  height: 350px;
+  margin: 10px;
+}
+
+/*CONTACT PAGE*/
+.contact-body{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://ih1.redbubble.net/image.890071499.0373/flat,1000x1000,075,f.u4.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contact-h1 {
+  font-family: 'Sen', sans-serif;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+.contact-p1 {
+  font-family: 'Sen', sans-serif;
+  font-size: 15px;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+ color:	pink;
 }
 
 /*mobile browser*/
