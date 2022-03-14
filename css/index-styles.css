@@ -11,6 +11,28 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+/*nav bar*/
+ul {
+  padding: 40px;
+  margin:10px;
+  font-family: 'Sen', sans-serif;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  float: none;
+  top: 3%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+}
+
+li {
+  display: inline-flex;
+  margin: 0 15px;
+  padding: 10px;
+  font-size: 15px;
+}
+
 .home-h1 {
  font-family: 'Sen', sans-serif;
  font-size: 100px;
@@ -31,23 +53,6 @@ a:visited {
 
 a:hover {
  color: pink;
-}
-
-/*nav bar*/
-ul {
-  padding: 40px;
-  margin:10px;
-  font-family: 'Sen', sans-serif;
-  width: 100%;
-  position: absolute;
-  text-align: center;
-}
-
-li {
-  display: inline-flex;
-  margin: 0 15px;
-  padding: 10px;
-  font-size: 15px;
 }
 
 /*ABOUT PAGE*/
