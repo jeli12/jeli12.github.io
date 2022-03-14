@@ -10,6 +10,14 @@
   background-repeat: no-repeat;
 }
 
+/*h1 for home page*/
+.home-h1 {
+  font-family: 'Sen', sans-serif;
+  font-size: 100px;
+  color: white;
+  text-align: center;
+}
+
 /*link color for home, about, and contact page*/
 a {
   text-decoration: none;
