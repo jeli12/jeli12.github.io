@@ -1,20 +1,12 @@
 /*HOME PAGE*/
 /*body for home page*/
-.home-body{
-  min-height: 100vh;
-  min-width: 100vh;
-  width: 100%;
-  height: auto;
-  position: fixed;
-  top:0;
-  left:0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-image: image(cloud.jpg);
-  background-position: center;
+.home-body {
+  background-image: url(file:///Users/jessicalieu/Desktop/clouds.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
 /*link color for home, about, and contact page*/
