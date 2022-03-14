@@ -2,7 +2,6 @@
 /*body for home page*/
 .home-body{
   min-height: 100vh;
-  min-width: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
