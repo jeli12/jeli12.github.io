@@ -44,14 +44,6 @@ li {
   font-size: 15px;
 }
 
-/*h1 for home page*/
-.home-h1 {
-  font-family: 'Sen', sans-serif;
-  font-size: 100px;
-  color: white;
-  text-align: center;
-}
-
 /*ABOUT PAGE*/
 .about-body{
   min-height: 100vh;
