@@ -105,25 +105,3 @@ li {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
-.projects-h1 {
-  font-family: 'Sen', sans-serif;
-  font-size: 20px;
-  color: white;
-  text-align: center;
-}
-
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  box-sizing: border-box;
-  align-items: center;
-  padding:100px;
-}
-
-.gallery img {
-  width: 400px;
-  height: 350px;
-  margin: 10px;
-}
