@@ -6,19 +6,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image:image("./img/home.jpg");
+  background-image: url(https://scontent-den4-1.xx.fbcdn.net/v/t1.6435-9/138940154_104340061636038_2342057253069719000_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=e3f864&_nc_ohc=I-AMo07pPOAAX9EHNTQ&_nc_ht=scontent-den4-1.xx&oh=00_AT-SgQfv--8m_kHev5S6v6ri45aNscruSegOveJMzm-jHQ&oe=62542DBA);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .home-h1 {
  font-family: 'Sen', sans-serif;
- font-size: 70px;
- color: pink;
+ font-size: 100px;
+ color: white;
  text-align: center;
  margin-left: auto;
  margin-right: auto;
- padding: 200px;
+ padding: 100px;
 }
 /*link color for home, about, and contact page*/
 a {
@@ -36,7 +36,7 @@ a:hover {
 /*nav bar*/
 ul {
   padding: 40px;
-  margin:6px;
+  margin:10px;
   font-family: 'Sen', sans-serif;
   width: 100%;
   position: absolute;
@@ -94,6 +94,17 @@ li {
 }
 
 /*PROJECT PAGE*/
+.projects-body {
+  min-height: 100vh;
+  min-width: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://ih1.redbubble.net/image.890071499.0373/flat,1000x1000,075,f.u4.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .projects-h1 {
   font-family: 'Sen', sans-serif;
   font-size: 20px;
