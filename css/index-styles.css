@@ -1,24 +1,25 @@
 /*HOME PAGE*/
 /*body for home page*/
-.home-body{
-  background-image: url(https://i.pinimg.com/736x/63/e1/e4/63e1e4c4348ed6fb92b6233b953f4bf6--hello-photo-pink-sky.jpg);
-  min-height: 100vh;
+.home-body {
   min-width: 100vh;
+  min-height: 100vh;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image:image("./img/home.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-
-/*h1 for home page*/
 .home-h1 {
-  font-family: 'Sen', sans-serif;
-  font-size: 100px;
-  color: white;
-  text-align: center;
-  margin-left: 100%;
+ font-family: 'Sen', sans-serif;
+ font-size: 70px;
+ color: pink;
+ text-align: center;
+ margin-left: auto;
+ margin-right: auto;
+ padding: 200px;
 }
-
 /*link color for home, about, and contact page*/
 a {
   text-decoration: none;
