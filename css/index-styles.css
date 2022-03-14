@@ -36,18 +36,11 @@ a:hover {
 
 /*nav bar*/
 ul {
-  padding: 40px;
-  margin;10px;
-  font-family: 'Sen', sans-serif;
-  width: 100%
-  text-align: center;
-}
-
-li {
-  display: inline-block;
-  margin: 0 15px;
-  padding 10px;
-}
+  float: none;
+  position: absolute;
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%);
 
 /*ABOUT PAGE*/
 .about-body{
