@@ -21,9 +21,9 @@ ul {
   position: absolute;
   text-align: center;
   float: none;
-  top: 3%;
-  left: 100%;
-  transform: translate(-50%, -50%);
+  top: 30%;
+  right: 100%;
+  transform: translate(-30%, -30%);
 }
 
 li {
