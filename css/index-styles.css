@@ -4,7 +4,7 @@
   min-height: 100vh;
   min-width: 100vh;
   display: flex;
-  background-image: url('./img/home.jpg');
+  background-image: image(./img/clouds.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
