@@ -1,0 +1,55 @@
+/*HOME PAGE*/
+/*body for home page*/
+.home-body{
+  min-height: 100vh;
+  min-width: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://pbs.twimg.com/media/FFRAjQ1XMAUVgPh?format=jpg&name=medium);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*link color for home, about, and contact page*/
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+ color: pink;
+}
+
+/*nav bar*/
+ul {
+  padding: 40px;
+  margin:6px;
+  font-family: 'Sen', sans-serif;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  float: none;
+  top: 3%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+li {
+  display: inline-flex;
+  margin: 0 15px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+/*h1 for home page*/
+.home-h1 {
+  font-family: 'Sen', sans-serif;
+  font-size: 100px;
+  color: white;
+  text-align: center;
+}
