@@ -40,9 +40,15 @@ ul {
   margin;10px;
   font-family: 'Sen', sans-serif;
   text-align: center;
+  font-family: 'Sen', sans-serif;
+  float: none;
+  top: 3%;
+  right: 100%;
+  transform: translate(-50%,-50%);
 }
 
 li {
+  display: inline-flex;
   margin: 0 15px;
   padding 10px;
 }
