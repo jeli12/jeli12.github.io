@@ -2,6 +2,7 @@
 /*body for home page*/
 .home-body{
   min-height: 100vh;
+  min-width: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -26,10 +27,16 @@ a:hover {
 
 /*nav bar*/
 ul {
-  text-align: center;
-  padding: 5px;
+  padding: 40px;
   margin:6px;
   font-family: 'Sen', sans-serif;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  float: none;
+  top: 3%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 li {
@@ -50,9 +57,11 @@ li {
 /*ABOUT PAGE*/
 .about-body{
   min-height: 100vh;
+  min-width: 100vh;
+  display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(https://ih1.redbubble.net/image.890071499.0373/flat,1000x1000,075,f.u4.jpg);
+  background-image: url(file:///Users/jessicalieu/Desktop/flat,1000x1000,075,f.u4.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -60,7 +69,7 @@ li {
 
 .about-h1 {
   font-family: 'Sen', sans-serif;
-  font-size: 30px;
+  font-size: 20px;
   color: white;
   text-align: center;
 }
@@ -72,35 +81,37 @@ li {
 }
 
 .about-p {
+  text-align: center;
   font-family: 'Sen', sans-serif;
   font-size: 14px;
-  text-align: center;
   color: white;
 }
 
 .about-p1 {
+  text-align: center;
   font-size: 12px;
+  color: white;
 }
 
 /*PROJECT PAGE*/
-/*link color for project page*/
-a. {
-  text-decoration: none;
-}
-
-a:visited {
-  color: pink;
-}
-
-a:hover {
- color:	#DDA0DD;
+.projects-body{
+  min-height: 100vh;
+  min-width: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(file:///Users/jessicalieu/Desktop/flat,1000x1000,075,f.u4.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .projects-h1 {
   font-family: 'Sen', sans-serif;
-  font-size: 30px;
-  color: pink;
+  font-size: 20px;
+  color: white;
   text-align: center;
+  position;relative;
 }
 
 .gallery {
@@ -109,7 +120,7 @@ a:hover {
   justify-content: space-around;
   box-sizing: border-box;
   align-items: center;
-  padding:20px;
+  padding:100px;
 }
 
 .gallery img {
@@ -117,10 +128,10 @@ a:hover {
   height: 350px;
   margin: 10px;
 }
-
 /*CONTACT PAGE*/
 .contact-body{
   min-height: 100vh;
+  min-width: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -132,7 +143,7 @@ a:hover {
 
 .contact-h1 {
   font-family: 'Sen', sans-serif;
-  font-size: 30px;
+  font-size: 35px;
   color: white;
   text-align: center;
 }
@@ -156,20 +167,10 @@ a:hover {
 }
 
 /*mobile browser*/
-
-@media screen and (max-width:400px) {
-  ul {
-    text-align: center;
-    padding: 5px;
-    margin:6px;
-    font-family: 'Sen', sans-serif;
-  }
-
-  li {
-    display: inline-flex;
-    margin: 0 15px;
-    padding: 10px;
-    font-size: 100px;
-  }
+@media screen and (min-width: 400px) {
+  font size: 10px;
 }
-@media screen and (min-width:400px) {
+
+@media screen and (max-width: 400px) {
+  font size: 10px;
+}
