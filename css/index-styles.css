@@ -1,10 +1,10 @@
 /*HOME PAGE*/
 /*body for home page*/
 .home-body{
+  background-image: url(https://images.unsplash.com/photo-1514477917009-389c76a86b68?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGluayUyMHNreXxlbnwwfHwwfHw%3D&w=1000&q=80);
   min-height: 100vh;
   min-width: 100vh;
   display: flex;
-  background-image: image('../img/home.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
