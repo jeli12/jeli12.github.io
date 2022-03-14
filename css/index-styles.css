@@ -191,20 +191,6 @@ li {
   a:hover {
     color: pink;
   }
-
-  ul {
-    text-align: center;
-    padding: 5px;
-    margin: 6px;
-    font-family: 'Sen', sans-serif;
-  }
-
-  li {
-    list-style-type: none;
-    margin: 0 10px;
-    padding: 10px;
-    font-size: 100%;
-  }
 }
 
 @media screen and (min-width:400px) {
@@ -238,21 +224,4 @@ li {
   a:hover {
     color: pink;
   }
-
-  ul {
-    text-align: center;
-    padding: 10px;
-    margin: 380px;
-    font-family: 'Sen', sans-serif;
-    position: absolute;
-  }
-
-  li {
-    display: inline-flex;
-    margin: 0 15px;
-    padding: 10px;
-    font-size: 100%;
-  }
-
-
 }
