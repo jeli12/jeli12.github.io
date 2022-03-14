@@ -11,7 +11,6 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 .home-h1 {
  font-family: 'Sen', sans-serif;
  font-size: 100px;
@@ -21,6 +20,7 @@
  margin-right: auto;
  padding: 100px;
 }
+
 /*link color for home, about, and contact page*/
 a {
   text-decoration: none;
@@ -32,6 +32,18 @@ a:visited {
 
 a:hover {
  color: pink;
+}
+
+/*nav bar*/
+ul {
+  padding: 40px;
+  margin;10px;
+  font-family: 'Sen', sans-serif;
+}
+
+li {
+  margin: 0 15px;
+  padding 10px;
 }
 
 /*ABOUT PAGE*/
