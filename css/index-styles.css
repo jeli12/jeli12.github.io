@@ -1,12 +1,15 @@
 /*HOME PAGE*/
 /*body for home page*/
-.home-body {
-  background-image: url(./img/clouds.jpg);
+.home-body{
+  min-height: 100vh;
+  min-width: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://ih1.redbubble.net/image.890071499.0373/flat,1000x1000,075,f.u4.jpg);
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
-  margin: 0;
-  padding: 0;
 }
 
 /*link color for home, about, and contact page*/
