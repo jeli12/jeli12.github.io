@@ -1,9 +1,4 @@
 /*HOME PAGE*/
-/*body for home page*/
-body, html {
-  height: 100%;
-}
-
 .home-bg {
   background-image: image(clouds.jpg);
   height: 100%;
