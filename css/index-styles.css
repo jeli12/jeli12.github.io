@@ -1,13 +1,7 @@
 /*HOME PAGE*/
 /*body for home page*/
 .home-body{
-  min-height: 100vh;
-  min-width: 100vh;
-  display: flex;
-  background-image: image(./img/clouds.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: lavender;
 }
 
 /*link color for home, about, and contact page*/
