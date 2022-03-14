@@ -56,12 +56,12 @@ li {
 
 /*ABOUT PAGE*/
 .about-body{
+  background-image: image(clouds.jpg);
   min-height: 100vh;
   min-width: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: image(clouds.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -95,12 +95,12 @@ li {
 
 /*PROJECT PAGE*/
 .projects-body{
+  background-image: image(clouds.jpg);
   min-height: 100vh;
   min-width: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(https://ih1.redbubble.net/image.890071499.0373/flat,1000x1000,075,f.u4.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
