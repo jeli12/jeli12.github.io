@@ -56,7 +56,7 @@ li {
 
 /*ABOUT PAGE*/
 .about-body{
-  background-image: image(clouds.jpg);
+  background-image: image('../img/clouds.jpg');
   min-height: 100vh;
   min-width: 100vh;
   display: flex;
