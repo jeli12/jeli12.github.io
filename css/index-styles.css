@@ -25,6 +25,26 @@
  padding: 100px;
 }
 
+ul {
+  padding: 40px;
+  margin:10px;
+  font-family: 'Sen', sans-serif;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  float: none;
+  top: 3%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+}
+
+li {
+  display: inline-flex;
+  margin: 0 15px;
+  padding: 10px;
+  font-size: 15px;
+}
+
 /*link color for home, about, and contact page*/
 a {
   text-decoration: none;
@@ -42,6 +62,10 @@ a:hover {
 .about-body{
   min-height: 100vh;
   min-width: 100vh;
+  top:0;
+  right: 0;
+  left: 0;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -82,6 +106,10 @@ a:hover {
   min-height: 100vh;
   min-width: 100vh;
   display: flex;
+  top:0;
+  right: 0;
+  left: 0;
+  position: relative;
   align-items: center;
   justify-content: center;
   background-image: url(https://ih1.redbubble.net/image.890071499.0373/flat,1000x1000,075,f.u4.jpg);
@@ -118,6 +146,10 @@ a:hover {
 .contact-body{
   min-height: 100vh;
   min-width: 100vh;
+  top:0;
+  right: 0;
+  left: 0;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -142,4 +174,70 @@ a:hover {
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
+}
+
+@media screen and (max-width: 400px) {
+  .home-body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://scontent-den4-1.xx.fbcdn.net/v/t1.6435-9/138940154_104340061636038_2342057253069719000_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=e3f864&_nc_ohc=I-AMo07pPOAAX9EHNTQ&_nc_ht=scontent-den4-1.xx&oh=00_AT-SgQfv--8m_kHev5S6v6ri45aNscruSegOveJMzm-jHQ&oe=62542DBA);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .home-h1 {
+    font-family: 'Sen', sans-serif;
+    font-size: 100%;
+    color: white;
+    text-align: center;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  a:visited {
+    color: white;
+  }
+
+  a:hover {
+    color: pink;
+  }
+}
+
+@media screen and (min-width:400px) {
+  .home-body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://scontent-den4-1.xx.fbcdn.net/v/t1.6435-9/138940154_104340061636038_2342057253069719000_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=e3f864&_nc_ohc=I-AMo07pPOAAX9EHNTQ&_nc_ht=scontent-den4-1.xx&oh=00_AT-SgQfv--8m_kHev5S6v6ri45aNscruSegOveJMzm-jHQ&oe=62542DBA);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .home-h1 {
+    font-family: 'Sen', sans-serif;
+    font-size: 80px;
+    color: white;
+    text-align: center;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  a:visited {
+    color: white;
+  }
+
+  a:hover {
+    color: pink;
+  }
 }
