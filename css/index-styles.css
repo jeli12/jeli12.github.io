@@ -21,9 +21,23 @@
  padding: 100px;
 }
 
+ul {
+  width: auto;
+  float: right;
+  margin-top: 8px;
+}
+
+li {
+  display: inline-block;
+  padding: 15px 30px;
+}
+
 /*link color for home, about, and contact page*/
 a {
   text-decoration: none;
+  text-align: center;
+  font-family: 'Sen', sans-serif;
+  font-size: 12px;
 }
 
 a:visited {
