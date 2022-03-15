@@ -9,13 +9,13 @@ ul {
   position: absolute;
   text-align: center;
   float: none;
-  top: 30%;
-  right: 100%;
-  transform: translate(-30%, -30%);
+  top: 3%;
+  left: 100%;
+  transform: translate(-50%, -50%);
 }
 
 li {
-  display: inline-flex;
+  display: inline-block;
   margin: 0 15px;
   padding: 10px;
   font-size: 15px;
