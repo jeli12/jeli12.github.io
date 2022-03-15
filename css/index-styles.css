@@ -1,12 +1,12 @@
 /*HOME PAGE*/
-* {
-  margin: 0;
-  padding: 0;
-}
 /*body for home page*/
 .home-body {
   min-width: 100vh;
   min-height: 100vh;
+  top:0;
+  right: 0;
+  left: 0;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
