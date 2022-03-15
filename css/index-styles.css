@@ -1,25 +1,5 @@
 /*HOME PAGE*/
 /*body for home page*/
-/*nav bar*/
-ul {
-  padding: 40px;
-  margin:10px;
-  font-family: 'Sen', sans-serif;
-  width: 100%;
-  position: absolute;
-  text-align: center;
-  float: none;
-  top: 3%;
-  left: 100%;
-  list-style: none;
-}
-
-li {
-  display: inline-flex;
-  margin: 0 15px;
-  padding: 10px;
-  font-size: 15px;
-
 .home-body {
   width: 100vh;
   min-height: 100vh;
