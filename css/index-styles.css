@@ -21,27 +21,6 @@
  padding: 100px;
 }
 
-/*nav bar*/
-ul {
-  padding: 40px;
-  margin:10px;
-  font-family: 'Sen', sans-serif;
-  width: 100%;
-  position: absolute;
-  text-align: center;
-  float: none;
-  top: 30%;
-  right: 100%;
-  transform: translate(-30%, -30%);
-}
-
-li {
-  display: inline-flex;
-  margin: 0 15px;
-  padding: 10px;
-  font-size: 15px;
-}
-
 /*link color for home, about, and contact page*/
 a:visited {
   color: white;
@@ -49,6 +28,10 @@ a:visited {
 
 a:hover {
  color: pink;
+}
+
+.nav-bar {
+  list-style: none;
 }
 
 /*ABOUT PAGE*/
