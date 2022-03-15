@@ -21,18 +21,6 @@
  padding: 100px;
 }
 
-ul {
-  float: right;
-  margin-top: 8px;
-}
-
-ul li {
-  list-style: none;
-  display: inline-block;
-  line-height: 100px;
-  padding: 15px 30px;
-}
-
 /*link color for home, about, and contact page*/
 a {
   text-decoration: none;
@@ -47,6 +35,19 @@ a:visited {
 
 a:hover {
  color: pink;
+}
+
+
+ul {
+  float: right;
+  margin-top: 8px;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  line-height: 100px;
+  padding: 15px 30px;
 }
 
 /*ABOUT PAGE*/
