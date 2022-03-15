@@ -2,9 +2,7 @@
 /*body for home page*/
 .home-body {
   width: 100vh;
-  height: 100vh;
-  margin: 0;
-  padding: 0;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -23,36 +21,28 @@
  padding: 100px;
 }
 
-/*link color for home, about, and contact page*/
-.navbar a {
-  color: white;
-  text-decoration: none;
-  text-align: center;
-  font-size: 20px;
+/*nav bar*/
+ul {
+  padding: 40px;
+  margin:10px;
   font-family: 'Sen', sans-serif;
-  padding: 50px;
-  position: fixed;
-  top: 0;
-}
-
-.navbar ul {
-  margin: 0px;
-  padding: 0px;
-  list-style: none;
-}
-
-.navbar ul li {
-  float: left;
-  width: 200px;
-  height: 40px;
-  line-height: 40px;
+  width: 100%;
+  position: absolute;
   text-align: center;
+  float: none;
+  top: 30%;
+  right: 100%;
+  transform: translate(-30%, -30%);
 }
 
-.navbar ul li a {
-  display: block;
+li {
+  display: inline-flex;
+  margin: 0 15px;
+  padding: 10px;
+  font-size: 15px;
 }
 
+/*link color for home, about, and contact page*/
 a:visited {
   color: white;
 }
