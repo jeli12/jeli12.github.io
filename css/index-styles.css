@@ -1,7 +1,48 @@
 /*HOME PAGE*/
 /*body for home page*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*navbar*/
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  position: sticky;
+  top: 0;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 20px 0px;
+}
+
+.navbar ul li {
+  font-family: 'Sen',sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: pink;
+  padding: 8px 25px;
+  transition: all .5s ease;
+}
+
+.navbar ul li a:hover {
+  background-color: orange;
+  color: purple;
+  box shadow: 0 0 10px white;
+}
+
 .home-body {
-  width: 100vh;
+  min-width: 100vh;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -19,19 +60,6 @@
  margin-left: auto;
  margin-right: auto;
  padding: 100px;
-}
-
-/*link color for home, about, and contact page*/
-a {
-  text-decoration: none;
-}
-
-a:visited {
-  color: white;
-}
-
-a:hover {
- color: pink;
 }
 
 /*ABOUT PAGE*/
