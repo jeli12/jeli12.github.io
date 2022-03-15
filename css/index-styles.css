@@ -22,11 +22,31 @@
 }
 
 /*link color for home, about, and contact page*/
-a {
+.navbar a {
+  color: white;
   text-decoration: none;
   text-align: center;
   font-size: 20px;
   font-family: 'Sen', sans-serif;
+  padding-right: 60px;
+}
+
+.navbar ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.navbar ul li {
+  float: left;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.navbar ul li a {
+  display: block;
 }
 
 a:visited {
