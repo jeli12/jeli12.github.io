@@ -43,6 +43,11 @@
   height: 40px;
   line-height: 40px;
   text-align: center;
+  background-color: pink;
+  border-top: 2px yellow solid;
+  border bottom: 2px yellow solid;
+  border-radius: 15px;
+  margin-bottom: 1px;
 }
 
 .navbar ul li a {
