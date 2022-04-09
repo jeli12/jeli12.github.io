@@ -1,5 +1,9 @@
 /*HOME PAGE*/
 /*body for home page*/
+*,html {
+  margin: 0;
+  padding: 0;
+}
 .home-body {
   min-width: 100vh;
   min-height: 100vh;
