@@ -15,6 +15,7 @@ async function getQuote() {
     const json = await response.json();
     console.log(json);
     displayQuote(json.quote);
+    displayAuthor(json.author);
   } catch(err) {
     console.log(err)
     alert('Failed');
