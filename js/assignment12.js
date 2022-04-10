@@ -1,7 +1,7 @@
 const quoteButton = document.querySelector('#js-new-quote');
 quoteButton.addEventListener('click', getQuote);
 
-const author = document.querySelector("author");
+const author = document.querySelector('#author');
 
 const endPoint = 'https://free-quotes-api.herokuapp.com/';
 
@@ -15,7 +15,6 @@ async function getQuote() {
     const json = await response.json();
     console.log(json);
     displayQuote(json.quote);
-    displayAuthor(json.author);
   } catch(err) {
     console.log(err)
     alert('Failed');
@@ -25,4 +24,9 @@ async function getQuote() {
 function displayQuote(quote) {
   const quoteText = document.querySelector('#js-quote-text');
   quoteText.textContent = quote;
+
+function displayAuthor(author) {
+  const author = document.querySelector('#author');
+  author.textContent = author;
+}
 }
