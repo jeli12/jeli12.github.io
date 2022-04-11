@@ -23,13 +23,3 @@ function displayQuote(quote) {
   const quoteText = document.querySelector('#js-quote-text');
   quoteText.textContent = quote;
 }
-
-function buttonClicked() {
-  document.getElementById('button-1').classList.toggle('is-pink');
-}
-
-function windowLoaded() {
-  document.getElementById('button-1').addEventListener('click', buttonClicked);
-}
-
-window.onload = windowLoaded;
