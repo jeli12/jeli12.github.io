@@ -88,6 +88,15 @@ header {
   cursor: not-allowed;
 }
 
+button {
+  transition: all 1000ms ease-in-out;
+  font-size: 60px;
+}
+
+.is-pink {
+  color: pink;
+}
+
 @media screen and (max-width: 600px) {
   .app {
     width: 100%;
