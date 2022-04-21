@@ -1,4 +1,4 @@
-// Problem 1
+// Problem Set 1
 const employees = [
 {
   name: "Sam",
@@ -27,7 +27,7 @@ const employees = [
 
 console.log('Problem 1', employees);
 
-// Problem 2
+// Problem Set 2
 const company = {
   companyName: "Tech Stars",
   website: "www.techstars.site",
@@ -35,7 +35,7 @@ const company = {
 };
 console.log('Problem 2', company);
 
-// Problem 3
+// Problem Set 3
 function addEmployee(employeeName, dept, desig, sal, raiseEligible) {
   const newEmployee = {
     name: employeeName,
@@ -50,7 +50,7 @@ function addEmployee(employeeName, dept, desig, sal, raiseEligible) {
 addEmployee('Anna', 'Tech', 'Executive', 25600, false);
 console.log('Problem 3', company);
 
-// Problem 4
+// Problem Set 4
 let totalSalary = employees[0].salary + employees[1].salary + employees[2].salary + employees[3].salary;
 console.log('Problem 4', totalSalary);
 
@@ -60,7 +60,7 @@ for (let i = 0; i < employees.length; i++) {
 }
 console.log('Problem 4 Better', totalSalaryBetter);
 
-// Problem 5
+// Problem Set 5
 function doRaises() {
   for (let i = 0; i < employees.length; i++) {
     if (employees[i].raiseEligible) {
@@ -73,7 +73,7 @@ function doRaises() {
 doRaises();
 console.log('Problem 5', employees);
 
-// Problem 6
+// Problem Set 6
 const workFromHomePpl = ['Anna', 'Sam'];
 function setWFH() {
   for (let i = 0; i < employees.length; i++) {
