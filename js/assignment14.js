@@ -55,7 +55,7 @@ let totalSalary = employees[0].salary + employees[1].salary + employees[2].salar
 console.log('Problem 4', totalSalary);
 
 let totalSalaryBetter = 0;
-for (let i = 0; i < employee.length; i++) {
+for (let i = 0; i < employees.length; i++) {
   totalSalaryBetter += employees[i].salary;
 }
 console.log('Problem 4 Better', totalSalaryBetter);
