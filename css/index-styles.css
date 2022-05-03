@@ -195,7 +195,7 @@ button {
 }
 
 /*MOBILE SCREEN*/
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 375px) {
   /* html, body {
     overflow-x: hidden;
   } */
@@ -323,7 +323,7 @@ button {
 }
 
 /* FOR DESKTOP STYLES */
-@media screen and (min-width:481px) {
+@media screen and (min-width:376px) {
   .home-body{
     min-height: 100vh;
     display: flex;
