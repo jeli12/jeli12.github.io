@@ -5,12 +5,12 @@
   padding: 0;
 }
 .home-body {
-  min-width: 100vh;
+  min-width: 100vw;
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(https://ih1.redbubble.net/image.890071499.0373/flat,1000x1000,075,f.u4.jpg);
+  background-image: url(../img/home.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -61,11 +61,11 @@ a:hover {
 /*ABOUT PAGE*/
 .about-body{
   min-height: 100vh;
-  min-width: 100vh;
+  min-width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(https://ih1.redbubble.net/image.890071499.0373/flat,1000x1000,075,f.u4.jpg);
+  background-image: url(../img/clouds.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -76,6 +76,7 @@ a:hover {
   font-size: 25px;
   color: white;
   text-align: center;
+  margin-top: 0.1%;
 }
 
 .about-h3 {
@@ -100,15 +101,16 @@ a:hover {
 /*PROJECT PAGE*/
 .projects-body {
   min-height: 100vh;
-  min-width: 100vh;
+  min-width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(https://ih1.redbubble.net/image.890071499.0373/flat,1000x1000,075,f.u4.jpg);
+  background-image: url(../img/clouds.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .projects-h1 {
   font-family: 'Sen', sans-serif;
   font-size: 25px;
@@ -116,32 +118,34 @@ a:hover {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  padding: 50px;
+  padding: 100px;
+  margin-top: 0.1%;
 }
 
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  box-sizing: border-box;
-  align-items: center;
-  padding:10px;
+.descriptions {
+    font-family: 'Sen', sans-serif;
+    padding: 10px;
+    font-size: 15px;
+  }
+
+.box {
+  width: 50%
+  height: 50%;
 }
 
-.gallery img {
-  width: 400px;
-  height: 350px;
-  margin: 10px;
+.box img {
+  width: 50%;
+  height: 50%
 }
 
 /*CONTACT PAGE*/
 .contact-body{
   min-height: 100vh;
-  min-width: 100vh;
+  min-width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(https://ih1.redbubble.net/image.890071499.0373/flat,1000x1000,075,f.u4.jpg);
+  background-image: url(../img/clouds.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -184,13 +188,16 @@ button {
 }
 
 /*MOBILE SCREEN*/
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 480px) {
+  /* html, body {
+    overflow-x: hidden;
+  } */
+
   .home-body {
     min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(https://scontent-den4-1.xx.fbcdn.net/v/t1.6435-9/138940154_104340061636038_2342057253069719000_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=e3f864&_nc_ohc=I-AMo07pPOAAX9EHNTQ&_nc_ht=scontent-den4-1.xx&oh=00_AT-SgQfv--8m_kHev5S6v6ri45aNscruSegOveJMzm-jHQ&oe=62542DBA);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -198,9 +205,100 @@ button {
 
   .home-h1 {
     font-family: 'Sen', sans-serif;
-    font-size: 100%;
+    font-size: 21px;
+    color: white;
+    align-items: center;
+  }
+
+  .about-h1 {
+    font-family: 'Sen', sans-serif;
+    font-size: 12px;
+    color: white;
+    text-align: left;
+  }
+
+  .about-h3 {
+    font-family: 'Sen', sans-serif;
+    font-size: 11px;
+    text-align: center;
+    color: white;
+  }
+
+  .about-p {
+    text-align: center;
+    font-family: 'Sen', sans-serif;
+    font-size: 11px;
+    color: white;
+  }
+
+  .about-p1 {
+    text-align: center;
+    font-size: 12px;
+    color: white;
+  }
+
+  .projects-h1 {
+    font-family: 'Sen', sans-serif;
+    font-size: 12px;
     color: white;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 110px;
+    margin-top: 10%;
+  }
+
+  .descriptions {
+    font-family: 'Sen', sans-serif;
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  .box {
+    width:100%
+    height: 100%;
+    box-shadow: 0 0 25px -3px rgba(0,0,0,0.4);
+  }
+
+  .box img {
+    width: 100%;
+    height: 100%
+  }
+
+  .contact-h1 {
+    font-family: 'Sen', sans-serif;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+  }
+
+  .contact-p1 {
+    font-family: 'Sen', sans-serif;
+    font-size: 10px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+  }
+
+  ul {
+    padding: 5px;
+    margin: 50px;
+    font-family: 'Sen', sans-serif;
+    width: 37%;
+    position: absolute;
+    text-align: center;
+    float: none;
+    top: 2%;
+    left: 36%;
+    transform: translate(-50%, -50%);
+  }
+
+  li {
+    display: inline-flex;
+    margin: 0 15px;
+    padding: 5px;
+    font-size: 14px;
   }
 
   a {
@@ -217,14 +315,14 @@ button {
   }
 }
 
-
-@media screen and (min-width:400px) {
+/* FOR DESKTOP STYLES */
+@media screen and (min-width:481px) {
   .home-body{
     min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(https://scontent-den4-1.xx.fbcdn.net/v/t1.6435-9/138940154_104340061636038_2342057253069719000_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=e3f864&_nc_ohc=I-AMo07pPOAAX9EHNTQ&_nc_ht=scontent-den4-1.xx&oh=00_AT-SgQfv--8m_kHev5S6v6ri45aNscruSegOveJMzm-jHQ&oe=62542DBA);
+    background-image: url(../img/home.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -232,9 +330,111 @@ button {
 
   .home-h1 {
     font-family: 'Sen', sans-serif;
-    font-size: 80px;
+    font-size: 70px;
     color: white;
     text-align: center;
+  }
+
+  .about-h1 {
+    font-family: 'Sen', sans-serif;
+    font-size: 23px;
+    color: white;
+    text-align: center;
+  }
+
+  .about-h3 {
+    font-family: 'Sen', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+  }
+
+  .about-p {
+    text-align: center;
+    font-family: 'Sen', sans-serif;
+    font-size: 18px;
+    color: white;
+  }
+
+  .about-p1 {
+    text-align: center;
+    font-size: 18px;
+    color: white;
+  }
+
+  .projects-body {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/clouds.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .projects-h1 {
+    font-family: 'Sen', sans-serif;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px;
+    margin-top: 0.1%;
+  }
+
+  .descriptions {
+      font-family: 'Sen', sans-serif;
+      padding: 10px;
+      font-size: 15px;
+    }
+
+  .box {
+    width: 50%
+    height: 50%;
+  }
+
+  .box img {
+    width: 50%;
+    height: 50%
+  }
+
+  .contact-h1 {
+    font-family: 'Sen', sans-serif;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+  }
+
+  .contact-p1 {
+    font-family: 'Sen', sans-serif;
+    font-size: 25px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+  }
+
+  ul {
+    padding: 100px;
+    margin: 10px;
+    font-family: 'Sen', sans-serif;
+    width: 90%;
+    position: absolute;
+    text-align: center;
+    float: none;
+    top: 4%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  li {
+    display: inline-flex;
+    margin: 0 15px;
+    padding: 40px;
+    font-size: 20px;
   }
 
   a {
