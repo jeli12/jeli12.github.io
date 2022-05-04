@@ -196,10 +196,43 @@ button {
 }
 
 /*MOBILE SCREEN*/
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 400px) {
   /* html, body {
     overflow-x: hidden;
   } */
+
+  ul {
+    padding: 5px;
+    margin: 50px;
+    font-family: 'Sen', sans-serif;
+    width: 37%;
+    position: absolute;
+    text-align: center;
+    float: none;
+    top: 2%;
+    left: 36%;
+    transform: translate(-50%, -50%);
+  }
+
+  li {
+    display: inline-flex;
+    margin: 0 15px;
+    padding: 5px;
+    font-size: 10px;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  a:visited {
+    color: white;
+  }
+
+  a:hover {
+    color: pink;
+  }
 
   .home-body {
     min-height: 100vh;
@@ -247,12 +280,12 @@ button {
 
   .projects-h1 {
     font-family: 'Sen', sans-serif;
-    font-size: 12px;
+    font-size: 10px;
     color: white;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    padding: 110px;
+    padding: 120px;
     margin-top: 10%;
   }
 
@@ -275,7 +308,7 @@ button {
 
   .contact-h1 {
     font-family: 'Sen', sans-serif;
-    font-size: 13px;
+    font-size: 10px;
     color: white;
     text-align: center;
   }
@@ -288,43 +321,10 @@ button {
     margin-right: auto;
     padding: 20px;
   }
-
-  ul {
-    padding: 5px;
-    margin: 50px;
-    font-family: 'Sen', sans-serif;
-    width: 37%;
-    position: absolute;
-    text-align: center;
-    float: none;
-    top: 2%;
-    left: 36%;
-    transform: translate(-50%, -50%);
-  }
-
-  li {
-    display: inline-flex;
-    margin: 0 15px;
-    padding: 5px;
-    font-size: 14px;
-  }
-
-  a {
-    text-decoration: none;
-    color: white;
-  }
-
-  a:visited {
-    color: white;
-  }
-
-  a:hover {
-    color: pink;
-  }
 }
 
 /* FOR DESKTOP STYLES */
-@media screen and (min-width:376px) {
+@media screen and (min-width:401px) {
   .home-body{
     min-height: 100vh;
     display: flex;
