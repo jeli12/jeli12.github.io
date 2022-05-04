@@ -324,7 +324,7 @@ button {
 }
 
 /* FOR DESKTOP STYLES */
-@media screen and (min-width:401px) {
+@media screen and (min-width:405px) {
   .home-body{
     min-height: 100vh;
     display: flex;
